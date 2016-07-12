@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cbAdd = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbAdd = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,16 +43,6 @@
             this.panel1.Size = new System.Drawing.Size(356, 151);
             this.panel1.TabIndex = 0;
             // 
-            // cbAdd
-            // 
-            this.cbAdd.Location = new System.Drawing.Point(3, 79);
-            this.cbAdd.Name = "cbAdd";
-            this.cbAdd.Size = new System.Drawing.Size(350, 69);
-            this.cbAdd.TabIndex = 0;
-            this.cbAdd.Text = "Ekle";
-            this.cbAdd.UseVisualStyleBackColor = true;
-            this.cbAdd.Click += new System.EventHandler(this.cbAdd_Click);
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -60,6 +50,18 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(350, 24);
             this.comboBox1.TabIndex = 1;
+            // 
+            // cbAdd
+            // 
+            this.cbAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cbAdd.ForeColor = System.Drawing.Color.Red;
+            this.cbAdd.Location = new System.Drawing.Point(3, 79);
+            this.cbAdd.Name = "cbAdd";
+            this.cbAdd.Size = new System.Drawing.Size(350, 69);
+            this.cbAdd.TabIndex = 0;
+            this.cbAdd.Text = "Ekle";
+            this.cbAdd.UseVisualStyleBackColor = true;
+            this.cbAdd.Click += new System.EventHandler(this.cbAdd_Click);
             // 
             // Form1
             // 
